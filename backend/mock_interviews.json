@@ -1,0 +1,60 @@
+[
+  {
+    "id": "int_2001",
+    "candidate_id": "cand_1002",
+    "candidate_name": "Michael Kyle",
+    "interviewer_name": "Anoop Yadav (Engineering)",
+    "date": "2026-05-25T14:00:00.000000",
+    "format": "Technical Round (Zoom)",
+    "meeting_link": "https://zoom.us/j/987654321",
+    "status": "Scheduled",
+    "notes": "Discuss python async patterns, motor collections, and database index strategies."
+  },
+  {
+    "id": "int_2002",
+    "candidate_id": "cand_1001",
+    "candidate_name": "Sarah Connor",
+    "interviewer_name": "Anoop Yadav (Engineering)",
+    "date": "2026-05-23T10:30:00.000000",
+    "format": "System Design Round (Zoom)",
+    "meeting_link": "https://zoom.us/j/123456789",
+    "status": "Scheduled",
+    "notes": "Assess state management patterns, hook optimizations, and server-side layouts."
+  },
+  {
+    "candidate_id": "manual_slot_id",
+    "candidate_name": "Aman",
+    "interviewer_name": "Sophia HR",
+    "date": "2026-06-11T10:00:00Z",
+    "format": "Video Call",
+    "meeting_link": "https://meet.google.com/abc-defg-hij",
+    "notes": "Manually logged boardroom slot.",
+    "status": "Scheduled",
+    "_id": "6a29541d22e58fe5c6b3a4ce",
+    "id": "6a29541d22e58fe5c6b3a4ce"
+  },
+  {
+    "candidate_id": "manual_slot_id",
+    "candidate_name": "nill",
+    "interviewer_name": "Sophia HR",
+    "date": "2026-06-05T10:00:00Z",
+    "format": "Video Call",
+    "meeting_link": "https://meet.google.com/abc-defg-hij",
+    "notes": "Manually logged boardroom slot.",
+    "status": "Scheduled",
+    "_id": "6a29543722e58fe5c6b3a4cf",
+    "id": "6a29543722e58fe5c6b3a4cf"
+  },
+  {
+    "candidate_id": "6a2a5705ee80685f76cc8872",
+    "candidate_name": "Alan Turing",
+    "interviewer_name": "HR Manager Admin & Jane Developer",
+    "date": "2026-06-01T15:00:00.000000",
+    "format": "Technical Zoom Meeting",
+    "meeting_link": "https://zoom.us/j/enigma-key",
+    "notes": "Assess decoding pipelines and computing limits.",
+    "status": "Scheduled",
+    "_id": "6a2a570aee80685f76cc8873",
+    "id": "6a2a570aee80685f76cc8873"
+  }
+]

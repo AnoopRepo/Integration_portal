@@ -1,0 +1,70 @@
+[
+  {
+    "employee_id": "6a2a603a13c74276e7488f19",
+    "year": 2026,
+    "balances": {
+      "Sick": {
+        "total": 3.0,
+        "used": 0.0,
+        "remaining": 3.0
+      },
+      "Casual": {
+        "total": 5.0,
+        "used": 0.0,
+        "remaining": 5.0
+      },
+      "Annual": {
+        "total": 20.0,
+        "used": 0.0,
+        "remaining": 20.0
+      },
+      "Maternity": {
+        "total": 180.0,
+        "used": 0.0,
+        "remaining": 180.0
+      },
+      "Unpaid": {
+        "total": 999.0,
+        "used": 0.0,
+        "remaining": 999.0
+      }
+    },
+    "_id": "6a2a605213c74276e7488f1c",
+    "id": "6a2a605213c74276e7488f1c"
+  },
+  {
+    "employee_id": "6a0e8d7112817bbd568797ff",
+    "year": 2026,
+    "balances": {
+      "Sick": {
+        "total": 3.0,
+        "used": 0.0,
+        "remaining": 3.0
+      },
+      "Casual": {
+        "total": 5.0,
+        "used": 0.0,
+        "remaining": 5.0
+      },
+      "Annual": {
+        "total": 20.0,
+        "used": 0.0,
+        "remaining": 20.0
+      },
+      "Maternity": {
+        "total": 180.0,
+        "used": 0.0,
+        "remaining": 180.0
+      },
+      "Unpaid": {
+        "total": 999.0,
+        "used": 0.0,
+        "remaining": 999.0
+      }
+    },
+    "_id": "6a2a6884061946b83265c82d",
+    "id": "6a2a6884061946b83265c82d",
+    "balances.Sick.used": 2.0,
+    "balances.Sick.remaining": 1.0
+  }
+]

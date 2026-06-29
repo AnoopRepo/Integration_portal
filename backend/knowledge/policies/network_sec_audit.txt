@@ -1,0 +1,1 @@
+Vulnerability found: Port 22 is open to the public.

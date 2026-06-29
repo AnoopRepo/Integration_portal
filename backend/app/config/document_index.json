@@ -1,0 +1,276 @@
+[
+  {
+    "file_path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/HR/Resume/Java/Anoop-J-Resume.pdf",
+    "filename": "Anoop-J-Resume.pdf",
+    "category": "java",
+    "last_modified": 1779448496.1312468,
+    "file_size": 139958,
+    "document_type": "resume",
+    "candidate_name": "Anoop Yadav",
+    "skills": [
+      "Spring",
+      "React",
+      "Hibernate",
+      "Mongodb",
+      "Mysql",
+      "Java",
+      "Css",
+      "Docker",
+      "Python",
+      "Git",
+      "Spring Boot",
+      "Javascript"
+    ],
+    "experience": "NOT_FOUND",
+    "keywords": [
+      "spring",
+      "react",
+      "hibernate",
+      "mongodb",
+      "mysql",
+      "java",
+      "css",
+      "docker",
+      "python",
+      "git"
+    ]
+  },
+  {
+    "file_path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/HR/Resume/Java/Ashish_Deloitte (2).pdf",
+    "filename": "Ashish_Deloitte (2).pdf",
+    "category": "java",
+    "last_modified": 1768809823.3239715,
+    "file_size": 116538,
+    "document_type": "resume",
+    "candidate_name": "Ashish (2)",
+    "skills": [
+      "Spring",
+      "React",
+      "Mongodb",
+      "Mysql",
+      "Java",
+      "Css",
+      "Sql",
+      "Git",
+      "Spring Boot",
+      "Html",
+      "Javascript"
+    ],
+    "experience": "NOT_FOUND",
+    "keywords": [
+      "spring",
+      "react",
+      "mongodb",
+      "mysql",
+      "java",
+      "css",
+      "sql",
+      "git",
+      "spring boot",
+      "html"
+    ]
+  },
+  {
+    "file_path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/HR/Resume/Java/Auns deloitte.pdf",
+    "filename": "Auns deloitte.pdf",
+    "category": "java",
+    "last_modified": 1768416270.5094912,
+    "file_size": 115221,
+    "document_type": "resume",
+    "candidate_name": "Auns",
+    "skills": [
+      "Spring",
+      "React",
+      "Hibernate",
+      "Mongodb",
+      "Mysql",
+      "Java",
+      "Css",
+      "Sql",
+      "Git",
+      "Spring Boot",
+      "Html",
+      "Javascript"
+    ],
+    "experience": "NOT_FOUND",
+    "keywords": [
+      "spring",
+      "react",
+      "hibernate",
+      "mongodb",
+      "mysql",
+      "java",
+      "css",
+      "sql",
+      "git",
+      "spring boot"
+    ]
+  },
+  {
+    "file_path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/HR/Resume/Full-Stack/Anoop-J-Resume.pdf",
+    "filename": "Anoop-J-Resume.pdf",
+    "category": "full_stack",
+    "last_modified": 1779448496.1312468,
+    "file_size": 139958,
+    "document_type": "resume",
+    "candidate_name": "Anoop J",
+    "skills": [
+      "Spring",
+      "React",
+      "Hibernate",
+      "Mongodb",
+      "Mysql",
+      "Java",
+      "Css",
+      "Docker",
+      "Python",
+      "Git",
+      "Spring Boot",
+      "Javascript"
+    ],
+    "experience": "NOT_FOUND",
+    "keywords": [
+      "spring",
+      "react",
+      "hibernate",
+      "mongodb",
+      "mysql",
+      "java",
+      "css",
+      "docker",
+      "python",
+      "git"
+    ]
+  },
+  {
+    "file_path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/Theory/Formal verification.txt",
+    "filename": "Formal verification.txt",
+    "category": "mcp_server",
+    "last_modified": 1780917876.5165234,
+    "file_size": 249,
+    "document_type": "knowledge",
+    "candidate_name": "NOT_FOUND",
+    "skills": [],
+    "experience": "NOT_FOUND",
+    "keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "file_path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/Theory/MCP Server Document.txt",
+    "filename": "MCP Server Document.txt",
+    "category": "mcp_server",
+    "last_modified": 1780904832.5934353,
+    "file_size": 1761,
+    "document_type": "knowledge",
+    "candidate_name": "NOT_FOUND",
+    "skills": [],
+    "experience": "NOT_FOUND",
+    "keywords": [
+      "Model Context Protocol",
+      "Claude",
+      "APIs",
+      "real-time data",
+      "external applications",
+      "Gmail",
+      "Google Calendar",
+      "Google Drive",
+      "Asana",
+      "Slack",
+      "GitHub"
+    ]
+  },
+  {
+    "file_path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/Theory/Formal verification.txt",
+    "filename": "Formal verification.txt",
+    "category": "theory_notes",
+    "last_modified": 1780917876.5165234,
+    "file_size": 249,
+    "document_type": "knowledge",
+    "candidate_name": "NOT_FOUND",
+    "skills": [],
+    "experience": "NOT_FOUND",
+    "keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "file_path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/Theory/MCP Server Document.txt",
+    "filename": "MCP Server Document.txt",
+    "category": "theory_notes",
+    "last_modified": 1780904832.5934353,
+    "file_size": 1761,
+    "document_type": "knowledge",
+    "candidate_name": "NOT_FOUND",
+    "skills": [],
+    "experience": "NOT_FOUND",
+    "keywords": [
+      "Model Context Protocol",
+      "Claude",
+      "APIs",
+      "real-time data",
+      "external services",
+      "tool integration",
+      "Gmail",
+      "Google Calendar",
+      "Google Drive",
+      "automation"
+    ]
+  },
+  {
+    "file_path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/Integration 09-06-26/Integration Portal 11-06-26-v1(Upload and download documents )/backend/knowledge/documents/corp_guidelines.txt",
+    "filename": "corp_guidelines.txt",
+    "category": "documents",
+    "last_modified": 1781163769.5476723,
+    "file_size": 44,
+    "document_type": "knowledge",
+    "candidate_name": "NOT_FOUND",
+    "skills": [],
+    "experience": "NOT_FOUND",
+    "keywords": [
+      "documents"
+    ]
+  },
+  {
+    "file_path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/Theory/AI Tool.pdf",
+    "filename": "AI Tool.pdf",
+    "category": "mcp_server",
+    "last_modified": 1781166514.2385616,
+    "file_size": 164619,
+    "document_type": "knowledge",
+    "candidate_name": "NOT_FOUND",
+    "skills": [],
+    "experience": "NOT_FOUND",
+    "keywords": [
+      "react"
+    ]
+  },
+  {
+    "file_path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/Theory/AI Tool.pdf",
+    "filename": "AI Tool.pdf",
+    "category": "theory_notes",
+    "last_modified": 1781166514.2385616,
+    "file_size": 164619,
+    "document_type": "knowledge",
+    "candidate_name": "NOT_FOUND",
+    "skills": [],
+    "experience": "NOT_FOUND",
+    "keywords": [
+      "react"
+    ]
+  },
+  {
+    "file_path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/Integration 09-06-26/Integration Portal 11-06-26-v1(Upload and download documents )/backend/knowledge/policies/network_sec_audit.txt",
+    "filename": "network_sec_audit.txt",
+    "category": "policies",
+    "last_modified": 1781163773.700374,
+    "file_size": 51,
+    "document_type": "knowledge",
+    "candidate_name": "NOT_FOUND",
+    "skills": [],
+    "experience": "NOT_FOUND",
+    "keywords": [
+      "policies"
+    ]
+  }
+]

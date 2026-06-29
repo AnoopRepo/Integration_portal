@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pol_401",
+    "title": "Work from Home & Hybrid Workspace Policy",
+    "category": "HR Operations",
+    "effective_date": "2026-01-01",
+    "description": "Guidelines on operating hours, network security, home internet allowances, and weekly hybrid desk schedules.",
+    "acknowledged_by": ["6a0d4c5bfd019034a6416e10", "6a0e8d7112817bbd568797ff"]
+  },
+  {
+    "id": "pol_402",
+    "title": "Information Security & Clean Desk Policy",
+    "category": "IT & Security Compliance",
+    "effective_date": "2026-02-15",
+    "description": "Rules regarding daily locking of workstations, multi-factor authentication, strong passphrases, and secure disposal of paper documents.",
+    "acknowledged_by": ["6a0d4c5bfd019034a6416e10"]
+  },
+  {
+    "id": "pol_403",
+    "title": "Code of Conduct & Anti-Harassment Guidelines",
+    "category": "Corporate Integrity",
+    "effective_date": "2026-01-01",
+    "description": "Commitment to safe, respect-driven workspaces free from any verbal, physical, or psychological harassment, and compliance reporting lines.",
+    "acknowledged_by": ["6a0e8d7112817bbd568797ff"]
+  }
+]

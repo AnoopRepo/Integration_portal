@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SuperClean Services",
+    "contact_name": "Jane Clean",
+    "email": "jane@superclean.com",
+    "phone": "+1-555-0199",
+    "services": "Facilities Management",
+    "contract_start": "2026-01-01",
+    "contract_end": "2027-01-01",
+    "status": "Active",
+    "_id": "6a0ec0574d0dbf673327abc2",
+    "id": "6a0ec0574d0dbf673327abc2"
+  },
+  {
+    "name": "cleansilicaon",
+    "contact_name": "Anoop",
+    "email": "anoop@gmail.com",
+    "phone": "99999999999",
+    "services": "web developer",
+    "contract_start": "2026-06-18",
+    "contract_end": "2026-06-18",
+    "status": "Active",
+    "_id": "6a290dfdb5ccd1715f9f5890",
+    "id": "6a290dfdb5ccd1715f9f5890"
+  }
+]

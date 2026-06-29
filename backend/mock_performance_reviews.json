@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rev_601",
+    "employee_id": "6a0d4c5bfd019034a6416e10",
+    "employee_name": "Anoop Yadav",
+    "review_period": "Q1 2026",
+    "self_score": 4.5,
+    "manager_score": 4.8,
+    "self_feedback": "Successfully delivered the secure auth flow, clean responsive sidebars, and resolved the uvicorn serialization issues.",
+    "manager_feedback": "Anoop shows exceptional talent. His ability to diagnose 500 serialization issues on custom mock JSON backends is commendable. Strives for visual excellence.",
+    "strengths": ["Debugging", "React Architecture", "Proactivity"],
+    "goals": ["Expand test coverages", "Master CI/CD pipeline deployments"],
+    "status": "Finalized",
+    "last_updated": "2026-05-20T12:00:00.000000"
+  },
+  {
+    "id": "rev_602",
+    "employee_id": "6a0e8d7112817bbd568797ff",
+    "employee_name": "John Staff",
+    "review_period": "Q1 2026",
+    "self_score": 4.0,
+    "manager_score": 4.2,
+    "self_feedback": "Resolved support tickets with high customer satisfaction ratings. Completed de-escalation certifications early.",
+    "manager_feedback": "John has maintained an excellent feedback rating and de-escalates difficult client support requests very successfully.",
+    "strengths": ["Empathy", "Zendesk Operations", "Reliability"],
+    "goals": ["Learn SQL/NoSQL basics to query basic support logs directly"],
+    "status": "Finalized",
+    "last_updated": "2026-05-21T14:30:00.000000"
+  }
+]

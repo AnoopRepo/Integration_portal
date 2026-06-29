@@ -1,0 +1,159 @@
+[
+  {
+    "id": "cand_1001",
+    "name": "Sarah Connor",
+    "email": "sarah.connor@example.com",
+    "phone": "+1-555-0199",
+    "experience_years": 4.5,
+    "role_applied": "Frontend React Developer",
+    "skills": [
+      "React",
+      "JavaScript",
+      "TailwindCSS",
+      "Redux"
+    ],
+    "resume_url": "https://workpulse.com/resumes/sarah_connor.pdf",
+    "score": 88,
+    "status": "Shortlisted",
+    "notes": "Excellent front-end knowledge, responsive designs, and clean styling patterns.",
+    "created_at": "2026-05-20T10:00:00"
+  },
+  {
+    "id": "cand_1002",
+    "name": "Michael Kyle",
+    "email": "michael.kyle@example.com",
+    "phone": "+1-555-0144",
+    "experience_years": 8.0,
+    "role_applied": "Senior Backend Developer",
+    "skills": [
+      "FastAPI",
+      "MongoDB",
+      "Docker",
+      "Python",
+      "Kubernetes"
+    ],
+    "resume_url": "https://workpulse.com/resumes/michael_kyle.pdf",
+    "score": 92,
+    "status": "Scheduled",
+    "notes": "Strong microservice experience, well-spoken, excellent cloud deployment architecture.",
+    "created_at": "2026-05-21T11:15:00"
+  },
+  {
+    "id": "cand_1003",
+    "name": "Bruce Wayne",
+    "email": "bruce.wayne@example.com",
+    "phone": "+1-555-1939",
+    "experience_years": 2.0,
+    "role_applied": "Security Analyst",
+    "skills": [
+      "Penetration Testing",
+      "Security Auditing",
+      "Wireshark"
+    ],
+    "resume_url": "https://workpulse.com/resumes/bruce_wayne.pdf",
+    "score": 65,
+    "status": "Screened",
+    "notes": "Good baseline knowledge, but lacks hands-on scripting/coding experience. Might be junior.",
+    "created_at": "2026-05-22T08:30:00"
+  },
+  {
+    "name": "Anoop Yadav",
+    "email": "anoopadav5984@gmail.com",
+    "phone": "+1-555-0100",
+    "experience_years": 1.0,
+    "role_applied": "Software Engineer",
+    "skills": [
+      "JavaScript"
+    ],
+    "resume_url": "https://workpulse.com/resumes/ANOOP YADAV.docx",
+    "notes": "AI Parsed Resume. Skills: JavaScript",
+    "questions": [
+      "Explain the JavaScript event loop, microtasks, and macrotasks. How do Promises execute relative to setTimeout?",
+      "How do you approach learning new technologies or frameworks when starting a new project?",
+      "Describe a time when you had to debug a complex system issue under tight deadlines. How did you diagnose it?",
+      "How do you handle disagreement with team members or stakeholders regarding technical design decisions?",
+      "What strategies do you use to ensure the code you write is maintainable, clean, and well-tested?"
+    ],
+    "questions_by_agent": {
+      "Ava": [
+        "Explain the JavaScript event loop, microtasks, and macrotasks. How do Promises execute relative to setTimeout?",
+        "How do you approach learning new technologies or frameworks when starting a new project?",
+        "Describe a time when you had to debug a complex system issue under tight deadlines. How did you diagnose it?",
+        "How do you handle disagreement with team members or stakeholders regarding technical design decisions?",
+        "What strategies do you use to ensure the code you write is maintainable, clean, and well-tested?"
+      ],
+      "Marcus": [
+        "How do you manage client expectations, scope creep, and changing requirements mid-sprint in an Agile environment?",
+        "What is your strategy for identifying, tracking, and mitigating project risks and technical debt?",
+        "How do you foster high collaboration and resolve interpersonal conflicts within a cross-functional product team?",
+        "How do you balance high-priority feature requests against technical refactoring of core systems?",
+        "How do you define success milestones for a product launch and verify them using analytics telemetry?"
+      ],
+      "Sophia": [
+        "Tell me about a challenging technical project you worked on recently. What was your role and the key outcome?",
+        "How do you approach learning new technologies or frameworks when starting a new project?",
+        "Describe a time when you had to debug a complex system issue under tight deadlines. How did you diagnose it?",
+        "How do you handle disagreement with team members or stakeholders regarding technical design decisions?",
+        "What strategies do you use to ensure the code you write is maintainable, clean, and well-tested?"
+      ],
+      "Dexter": [
+        "How do you approach refactoring a piece of legacy, poorly written code that has no existing unit tests?",
+        "What is your debugging process when dealing with a race condition or memory leak in a production environment?",
+        "What automated linting, formatting, and static analysis tools do you include in your standard developer pipeline?",
+        "Describe your ideal local developer environment setup. What tools make you the most productive?",
+        "How do you ensure security standards like OWASP Top 10 and secure data validation are strictly maintained in your code?"
+      ]
+    },
+    "score": 0,
+    "status": "AI Invited",
+    "created_at": "2026-06-10T12:07:49.000994",
+    "_id": "6a29539522e58fe5c6b3a4cd",
+    "id": "6a29539522e58fe5c6b3a4cd",
+    "meeting_link": "/ai-interview/6a29539522e58fe5c6b3a4cd",
+    "invited_at": "2026-06-10T12:08:15.958755"
+  },
+  {
+    "name": "Alan Turing",
+    "email": "alan.turing@enigma.org",
+    "phone": "+44-20-7946-0958",
+    "experience_years": 10.0,
+    "role_applied": "Lead Cryptographer",
+    "skills": [
+      "Python",
+      "C++",
+      "Cybersecurity",
+      "Number Theory"
+    ],
+    "resume_url": "https://workpulse.com/resumes/alan_turing.pdf",
+    "notes": "Verified. Interviewing immediately.",
+    "questions": null,
+    "questions_by_agent": null,
+    "score": 98,
+    "status": "Shortlisted",
+    "created_at": "2026-06-11T06:34:45.987339",
+    "_id": "6a2a5705ee80685f76cc8872",
+    "id": "6a2a5705ee80685f76cc8872"
+  },
+  {
+    "name": "Alan Turing",
+    "email": "alan.turing@enigma.org",
+    "phone": "+44-20-7946-0958",
+    "experience_years": 10.0,
+    "role_applied": "Lead Cryptographer",
+    "skills": [
+      "Python",
+      "C++",
+      "Cybersecurity",
+      "Number Theory"
+    ],
+    "resume_url": "https://workpulse.com/resumes/alan_turing.pdf",
+    "notes": "Pioneer of computing science. Exceptional intelligence.",
+    "questions": null,
+    "questions_by_agent": null,
+    "score": 0,
+    "status": "Screened",
+    "created_at": "2026-06-11T06:35:46.732128",
+    "_id": "6a2a5742ee80685f76cc8876",
+    "id": "6a2a5742ee80685f76cc8876"
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "java": {
+    "path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/HR/Resume/Java",
+    "keywords": [
+      "java",
+      "spring",
+      "spring boot",
+      "hibernate",
+      "backend",
+      "microservices"
+    ]
+  },
+  "full_stack": {
+    "path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/HR/Resume/Full-Stack",
+    "keywords": [
+      "full stack",
+      "react",
+      "node",
+      "javascript",
+      "frontend",
+      "backend"
+    ]
+  },
+  "mern": {
+    "path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/HR/Resume/Mern",
+    "keywords": [
+      "mern",
+      "mongodb",
+      "express",
+      "react",
+      "node"
+    ]
+  },
+  "mcp_server": {
+    "path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/Theory",
+    "keywords": [
+      "mcp",
+      "mcp server",
+      "model context protocol",
+      "tools",
+      "agent",
+      "server",
+      "protocol"
+    ]
+  },
+  "python": {
+    "path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/HR/Resume/Python",
+    "keywords": [
+      "python",
+      "django",
+      "flask",
+      "fastapi",
+      "machine learning"
+    ]
+  },
+  "Theory_Notes": {
+    "path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/DataBase/Theory",
+    "keywords": [
+      "formal verification",
+      "verification",
+      "notes",
+      "directories"
+    ]
+  },
+  "routes": {
+    "path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/Integration 09-06-26/Integrated Portal 09-06-26(Only Local DB)/backend/app/routes",
+    "keywords": [
+      "routes",
+      "endpoints",
+      "api",
+      "backend routes",
+      "controllers",
+      "handlers"
+    ]
+  },
+  "local_db": {
+    "path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/Integration 09-06-26/Integrated Portal 09-06-26(Only Local DB)/backend",
+    "keywords": [
+      "mock",
+      "database",
+      "local data",
+      "json database",
+      "mock data",
+      "users",
+      "attendance",
+      "candidates",
+      "interviews",
+      "onboarding",
+      "hr documents",
+      "reminders",
+      "vendors",
+      "reports",
+      "expenses",
+      "assets",
+      "meetings",
+      "tickets"
+    ]
+  },
+  "backend_app": {
+    "path": "C:/Users/Anoop/OneDrive/Desktop/Python Script/Integration 09-06-26/Integrated Portal 09-06-26(Only Local DB)/backend/app",
+    "keywords": [
+      "backend",
+      "application",
+      "main.py",
+      "config",
+      "database.py",
+      "services",
+      "models"
+    ]
+  },
+  "resumes": {
+    "path": "knowledge/resumes",
+    "keywords": ["resume", "resumes", "cv", "candidate", "candidates", "applicant", "applicants", "experience", "education", "skills"]
+  },
+  "documents": {
+    "path": "knowledge/documents",
+    "keywords": ["document", "documents", "general", "reference", "doc", "docs", "file", "files"]
+  },
+  "policies": {
+    "path": "knowledge/policies",
+    "keywords": ["policy", "policies", "rules", "regulations", "guideline", "guidelines", "handbook", "code of conduct"]
+  },
+  "certificates": {
+    "path": "knowledge/certificates",
+    "keywords": ["certificate", "certificates", "certification", "certifications", "license", "degrees", "diploma"]
+  },
+  "reports": {
+    "path": "knowledge/reports",
+    "keywords": ["report", "reports", "annual", "quarterly", "financial", "analysis", "summary"]
+  },
+  "training": {
+    "path": "knowledge/training",
+    "keywords": ["training", "trainings", "tutorial", "tutorials", "course", "courses", "learning", "material", "materials"]
+  }
+}

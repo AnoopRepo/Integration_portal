@@ -1,0 +1,18 @@
+[
+  {
+    "amount": 12.0,
+    "category": "Travel",
+    "description": "hi",
+    "date": "2026-06-09",
+    "document_id": null,
+    "document_title": null,
+    "document_url": null,
+    "user_id": "6a0d4cecfd019034a6416e11",
+    "user_name": "Anoop Yadav",
+    "status": "Pending",
+    "comments": "",
+    "created_at": "2026-06-09T14:10:44.634013",
+    "_id": "6a281ee499adca78d91d6b7e",
+    "id": "6a281ee499adca78d91d6b7e"
+  }
+]

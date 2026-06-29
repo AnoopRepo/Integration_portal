@@ -1,0 +1,288 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Design System Core Tokens (CSS Variables)
+   ========================================================================== */
+
+:root {
+  /* Light Theme */
+  --bg-app-val: #f8fafc;
+  --bg-surface-val: #ffffff;
+  --bg-surface-alt-val: #f1f5f9;
+  --border-primary-val: rgba(15, 23, 42, 0.08);
+  --border-hover-val: rgba(15, 23, 42, 0.15);
+  --text-primary-val: #0f172a;
+  --text-secondary-val: #475569;
+  --text-muted-val: #94a3b8;
+  --brand-primary-val: #4f46e5;
+  --brand-secondary-val: #64748b;
+  --brand-accent-val: #0284c7;
+  --brand-success-val: #059669;
+  --brand-warning-val: #d97706;
+  --brand-error-val: #e11d48;
+  --scroll-track: #f1f5f9;
+  --scroll-thumb: rgba(15, 23, 42, 0.15);
+  --selection-bg: rgba(79, 70, 229, 0.15);
+  --selection-text: #0f172a;
+
+  /* Aliases for non-company-agent components using inline styles */
+  --bg-app: var(--bg-app-val);
+  --bg-surface: var(--bg-surface-val);
+  --bg-surface-alt: var(--bg-surface-alt-val);
+  --border-primary: var(--border-primary-val);
+  --text-primary: var(--text-primary-val);
+  --text-secondary: var(--text-secondary-val);
+  --text-muted: var(--text-muted-val);
+}
+
+.dark {
+  /* Dark Theme */
+  --bg-app-val: #0b0f19;
+  --bg-surface-val: #131b2e;
+  --bg-surface-alt-val: #1e293b;
+  --border-primary-val: rgba(255, 255, 255, 0.08);
+  --border-hover-val: rgba(255, 255, 255, 0.16);
+  --text-primary-val: #f8fafc;
+  --text-secondary-val: #94a3b8;
+  --text-muted-val: #64748b;
+  --brand-primary-val: #6366f1;
+  --brand-secondary-val: #475569;
+  --brand-accent-val: #0ea5e9;
+  --brand-success-val: #10b981;
+  --brand-warning-val: #f59e0b;
+  --brand-error-val: #f43f5e;
+  --scroll-track: #090d16;
+  --scroll-thumb: rgba(99, 102, 241, 0.25);
+  --selection-bg: rgba(99, 102, 241, 0.25);
+  --selection-text: #f8fafc;
+}
+
+@theme {
+  --color-bg-app: var(--bg-app-val);
+  --color-bg-surface: var(--bg-surface-val);
+  --color-bg-surface-alt: var(--bg-surface-alt-val);
+  --color-border-primary: var(--border-primary-val);
+  --color-border-hover: var(--border-hover-val);
+  --color-text-primary: var(--text-primary-val);
+  --color-text-secondary: var(--text-secondary-val);
+  --color-text-muted: var(--text-muted-val);
+  
+  /* Compatibility mappings for Company Agent */
+  --color-background: var(--bg-app-val);
+  --color-surface-1: var(--bg-surface-val);
+  --color-surface-2: var(--bg-surface-alt-val);
+  --color-border: var(--border-primary-val);
+  
+  --color-brand-primary: var(--brand-primary-val);
+  --color-brand-secondary: var(--brand-secondary-val);
+  --color-brand-accent: var(--brand-accent-val);
+  --color-brand-success: var(--brand-success-val);
+  --color-brand-warning: var(--brand-warning-val);
+  --color-brand-error: var(--brand-error-val);
+
+  --shadow-glow-primary: 0 4px 20px rgba(99, 102, 241, 0.15);
+  --shadow-glow-accent: 0 4px 20px rgba(14, 165, 233, 0.12);
+  --shadow-glow-sm: 0 2px 10px rgba(99, 102, 241, 0.1);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.03);
+  --shadow-card-hover: 0 4px 20px rgba(99, 102, 241, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+
+  --bg-gradient-primary: linear-gradient(135deg, #6366f1, #4f46e5);
+  --bg-gradient-accent: linear-gradient(135deg, #0ea5e9, #3b82f6);
+  --bg-gradient-card: linear-gradient(135deg, var(--bg-surface-val) 0%, var(--bg-surface-alt-val) 100%);
+}
+
+/* ==========================================================================
+   Global Layout & Scrollbars
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+body {
+  background-color: var(--bg-app-val);
+  color: var(--text-primary-val);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--scroll-track);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 999px;
+  border: 2px solid var(--scroll-track);
+  transition: all 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-primary-val);
+}
+
+::selection {
+  background: var(--selection-bg);
+  color: var(--selection-text);
+}
+
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slideRight {
+  animation: slideRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1) translate(0, 0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.05) translate(10px, -10px);
+    opacity: 0.8;
+  }
+}
+
+.animate-pulseGlow {
+  animation: pulseGlow 10s ease-in-out infinite;
+}
+
+/* ==========================================================================
+   Premium Glassmorphism & Cards
+   ========================================================================== */
+
+.glass-panel {
+  background: var(--bg-surface-val);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-primary-val);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.03);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel-hover:hover {
+  border-color: rgba(99, 102, 241, 0.3);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--brand-primary-val), var(--brand-accent-val));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ==========================================================================
+   Company Agent (Backward Compatibility Mapping) Scopes
+   ========================================================================== */
+
+.company-agent-root {
+  --bg-app: var(--bg-app-val);
+  --bg-surface-1: var(--bg-surface-val);
+  --bg-surface-2: var(--bg-surface-alt-val);
+  --border-primary: var(--border-primary-val);
+  --border-hover: var(--border-hover-val);
+  --text-primary: var(--text-primary-val);
+  --text-secondary: var(--text-secondary-val);
+  --text-muted: var(--text-muted-val);
+  --scroll-thumb: var(--scroll-thumb);
+  --selection-bg: var(--selection-bg);
+  --selection-text: var(--selection-text);
+
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.company-agent-root {
+  .gradient-text {
+    background: linear-gradient(135deg, var(--brand-primary-val), var(--brand-accent-val));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glass {
+    background: var(--bg-surface-1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border-primary);
+  }
+
+  .glass-panel {
+    background: var(--bg-surface-1) !important;
+    border: 1px solid var(--border-primary) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.03) !important;
+  }
+
+  .glass-panel-hover:hover {
+    background: var(--bg-surface-1) !important;
+    border-color: rgba(99, 102, 241, 0.3) !important;
+    transform: translateY(-2px);
+  }
+}
+
+/* ==========================================================================
+   Scrollbar Thin Utility
+   ========================================================================== */
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) var(--scroll-track);
+}
+.scrollbar-thin::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 999px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-primary-val);
+}
+
+/* ==========================================================================
+   Chat Message Utilities
+   ========================================================================== */
+
+/* Custom opacity utility for Tailwind v4 arbitrary values */
+.bg-indigo-500\/12 { background-color: rgba(99, 102, 241, 0.12); }
+.bg-rose-500\/12   { background-color: rgba(244, 63, 94, 0.12); }
+.bg-emerald-500\/12 { background-color: rgba(16, 185, 129, 0.12); }
+.bg-indigo-500\/8  { background-color: rgba(99, 102, 241, 0.08); }

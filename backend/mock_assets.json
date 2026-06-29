@@ -1,0 +1,26 @@
+[
+  {
+    "name": "MacBook Pro 16",
+    "serial_number": "MBP-2026-X89",
+    "category": "Hardware",
+    "assigned_to": "John Staff",
+    "assigned_name": "John Staff",
+    "status": "Assigned",
+    "purchase_date": "2026-05-01",
+    "value": 2599.99,
+    "_id": "6a0eb88ac575c7637602bc1b",
+    "id": "6a0eb88ac575c7637602bc1b"
+  },
+  {
+    "name": "MacBook Pro 16",
+    "serial_number": "MBP-2026-X89",
+    "category": "Hardware",
+    "assigned_to": "John Staff",
+    "assigned_name": "John Staff",
+    "status": "Assigned",
+    "purchase_date": "2026-05-01",
+    "value": 2599.99,
+    "_id": "6a0ec04b4d0dbf673327abc0",
+    "id": "6a0ec04b4d0dbf673327abc0"
+  }
+]

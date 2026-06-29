@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Renew Cleaners Contract",
+    "description": "Cleaners contract expires in 30 days. Need negotiation.",
+    "type": "Reminder",
+    "target_user": "6a0e8d5412817bbd568797fd",
+    "target_name": "System Admin",
+    "status": "Resolved",
+    "due_date": "2026-06-20",
+    "created_at": "2026-05-21T08:20:43.386990",
+    "_id": "6a0ec05b4d0dbf673327abc3",
+    "id": "6a0ec05b4d0dbf673327abc3"
+  },
+  {
+    "title": "Ui Template",
+    "description": "Design a good ui that help for attract people ",
+    "type": "Reminder",
+    "target_user": "6a0e8d5412817bbd568797f1",
+    "target_name": "Alice Engineer (Eng User 2)",
+    "status": "Pending",
+    "due_date": "2026-07-02",
+    "created_at": "2026-06-10T07:15:30.236650",
+    "_id": "6a290f12b5ccd1715f9f5891",
+    "id": "6a290f12b5ccd1715f9f5891"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "doc_3001",
+    "employee_id": "6a0d4c5bfd019034a6416e10",
+    "employee_name": "Anoop Yadav",
+    "title": "Aadhar Card ID Proof",
+    "category": "Identity",
+    "filename": "aadhar_proof_anoop.pdf",
+    "file_size": "1.2 MB",
+    "status": "Verified",
+    "uploaded_at": "2026-05-20T06:15:00.000000"
+  },
+  {
+    "id": "doc_3002",
+    "employee_id": "6a0d4c5bfd019034a6416e10",
+    "employee_name": "Anoop Yadav",
+    "title": "Employment Offer Letter (Signed)",
+    "category": "Contract",
+    "filename": "offer_letter_signed_anoop.pdf",
+    "file_size": "2.4 MB",
+    "status": "Verified",
+    "uploaded_at": "2026-05-20T06:20:00.000000"
+  },
+  {
+    "id": "doc_3003",
+    "employee_id": "6a0e8d7112817bbd568797ff",
+    "employee_name": "John Staff",
+    "title": "Passport Copy ID Proof",
+    "category": "Identity",
+    "filename": "passport_copy_john.pdf",
+    "file_size": "3.1 MB",
+    "status": "Verified",
+    "uploaded_at": "2026-05-21T05:00:00.000000"
+  },
+  {
+    "title": "Jane Degree Certificate",
+    "category": "Education",
+    "filename": "jane_btech_degree.pdf",
+    "file_size": "1.8 MB",
+    "employee_id": "6a2a56edee80685f76cc8870",
+    "employee_name": "Jane Developer",
+    "status": "Verified",
+    "uploaded_at": "2026-06-11T06:35:00.549810",
+    "_id": "6a2a5714ee80685f76cc8875",
+    "id": "6a2a5714ee80685f76cc8875"
+  }
+]

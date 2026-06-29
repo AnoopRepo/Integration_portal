@@ -1,0 +1,44 @@
+[
+  {
+    "id": "trn_501",
+    "employee_id": "6a0d4c5bfd019034a6416e10",
+    "employee_name": "Anoop Yadav",
+    "course_name": "Modern React Hook Patterns & Concurrent Rendering",
+    "provider": "Frontend Academy",
+    "progress": 75,
+    "tasks": [
+      {"id": "ct1", "title": "Understanding useState and useReducer", "completed": true},
+      {"id": "ct2", "title": "Mastering useEffect & cleanup boundaries", "completed": true},
+      {"id": "ct3", "title": "useRef & DOM direct node bindings", "completed": true},
+      {"id": "ct4", "title": "Concurrency: useTransition and useDeferredValue", "completed": false}
+    ],
+    "status": "In Progress"
+  },
+  {
+    "id": "trn_502",
+    "employee_id": "6a0d4c5bfd019034a6416e10",
+    "employee_name": "Anoop Yadav",
+    "course_name": "FastAPI Web Apps with MongoDB Integration",
+    "provider": "Backend Masters",
+    "progress": 25,
+    "tasks": [
+      {"id": "bt1", "title": "Router prefixes and Depends dependency injection", "completed": true},
+      {"id": "bt2", "title": "Async database operations with Motor engine", "completed": false},
+      {"id": "bt3", "title": "JWT generation, validation & OAuth2 schema", "completed": false}
+    ],
+    "status": "In Progress"
+  },
+  {
+    "id": "trn_503",
+    "employee_id": "6a0e8d7112817bbd568797ff",
+    "employee_name": "John Staff",
+    "course_name": "Conflict De-escalation & Customer Success",
+    "provider": "Operations Hub",
+    "progress": 100,
+    "tasks": [
+      {"id": "st1", "title": "Active listening and empathetic response guidelines", "completed": true},
+      {"id": "st2", "title": "Identifying and routing complex technical requests", "completed": true}
+    ],
+    "status": "Completed"
+  }
+]
